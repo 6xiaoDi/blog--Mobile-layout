@@ -21,13 +21,25 @@ ul {
 .app ul li {
     float: left;
     height: 45px;
+    /*垂直居中*/
+    line-height: 45px;
     background-color: #333333;
+    /*水平居中*/
+    text-align: center;
+    color: #fff;
 }
 .app ul li:nth-child(1) {
     width: 8%;
 }
+.app ul li:nth-child(1) img {
+    width: 10px;
+}
 .app ul li:nth-child(2) {
     width: 10%;
+}
+.app ul li:nth-child(2) img {
+    width: 30px;
+    vertical-align: middle;
 }
 .app ul li:nth-child(3) {
     width: 57%;
