@@ -63,6 +63,17 @@ ul {
     width: 40px;
     height: 44px;
 }
+
+.search-btn::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 18px;
+    background: url(../images/s-btn.png) no-repeat;
+    background-size: 20px 18px;
+    margin: 14px 0 0 15px;
+}
+
 .search-login {
     position: absolute;
     right: 0;
@@ -70,11 +81,33 @@ ul {
     width: 40px;
     height: 44px;
     background-color: blue;
+    color: #fff;
+    line-height: 44px;
 }
 .search {
+    position: relative;
     height: 30px;
     background-color: greenyellow;
     margin: 0 50px;
     border-radius: 15px;
     margin-top: 7px;
+}
+.jd-icon {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    background: url(../images/jd.png) no-repeat;
+    background-size: 20px 15px;
+}
+.jd-icon::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 0;
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
 }
