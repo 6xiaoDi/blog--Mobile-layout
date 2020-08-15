@@ -15,6 +15,15 @@ ul {
     padding: 0;
     list-style: none;
 }
+img {
+    vertical-align: middle;
+}
+
+div {
+    /* css3 盒子模型 */
+    box-sizing: border-box;
+}
+
 .app {
     height: 45px;
 }
@@ -123,5 +132,21 @@ ul {
     background-size: 200px auto;
 }
 .slider img {
+    width: 100%;
+}
+
+/* 品牌日 */
+
+.brand {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.brand div {
+    float: left;
+    width: 33.33%;
+}
+
+.brand div img {
     width: 100%;
 }
