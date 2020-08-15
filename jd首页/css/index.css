@@ -10,6 +10,10 @@ body {
     color: #666;
     line-height: 1.5;
 }
+a {
+    color: #666;
+    text-decoration: none;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -149,4 +153,24 @@ div {
 
 .brand div img {
     width: 100%;
+}
+/* nav */
+
+nav {
+    padding-top: 5px;
+}
+
+nav a {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav a img {
+    width: 40px;
+    margin: 10px 0;
+}
+
+nav a span {
+    display: block;
 }
