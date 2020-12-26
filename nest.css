@@ -6,7 +6,13 @@
 .header a {
   color: red;
 }
+.header a:hover {
+  color: blue;
+}
 .nav .logo {
   color: green;
+}
+.nav::before {
+  content: "";
 }
 /*# sourceMappingURL=nest.css.map */
