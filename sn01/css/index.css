@@ -56,4 +56,12 @@ html {
     font-size: 750px / 15;
   }
 }
+body {
+  min-width: 320px;
+  width: 15rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family:  Arial,Helvetica;
+  background: #F2F2F2;
+}
 /*# sourceMappingURL=index.css.map */
