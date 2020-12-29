@@ -5,3 +5,16 @@
         width: 1280px;
     }
 }
+
+/*header*/
+header {
+    padding-left: 0!important;
+}
+
+.logo {
+    background-color: #429ad9;
+}
+
+.logo img {
+    width: 100%;
+}
