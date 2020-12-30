@@ -101,3 +101,21 @@ header {
     color: #fff;
 }
 
+.publish {
+    border-top: 1px solid #ccc;
+}
+
+.publish .row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.pic {
+    margin-top: 10px;
+}
+
+
