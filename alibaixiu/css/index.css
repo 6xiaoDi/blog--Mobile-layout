@@ -31,7 +31,24 @@ header {
 }
 
 .logo img {
-    width: 100%;
+    display: block;
+    /*width: 100%;*/
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* 1.我们如果进入了超小屏幕下  logo里面的图片就隐藏起来 */
+
+
+/* 2. 我们事先准备好一个盒子 在logo里面，它平时是隐藏起来的，只有在超小屏幕下显示 */
+
+.logo span {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
 }
 
 .nav {
