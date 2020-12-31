@@ -13,6 +13,14 @@ a:hover {
     text-decoration: none;
 }
 
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: #fff;
+}
+
 /* 修改container的最大宽度为 1280 根据设计稿来走的 */
 
 @media screen and (min-width: 1280px) {
@@ -81,6 +89,9 @@ header {
         float: left;
         width: 20%;
     }
+    article {
+        margin-top: 10px;
+    }
 }
 
 /* 当我们进入 超小屏幕的时候 我们 nav 文字会变成14px  */
@@ -88,6 +99,13 @@ header {
 @media screen and (max-width: 767px) {
     .nav li a {
         font-size: 14px;
+    }
+    /* 当我们处于超小屏幕 news 第一个li 宽度为 100%  剩下的小li  各 50% */
+    .news li:nth-child(1) {
+        width: 100%!important;
+    }
+    .news li {
+        width: 50%!important;
     }
 }
 
