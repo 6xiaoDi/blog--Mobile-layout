@@ -74,6 +74,23 @@ header {
     padding-right: 5px;
 }
 
+/* 当我们进入 小屏幕 还有 超小屏幕的时候 我们 nav 里面的li 浮动起来 并且宽度为 20%  */
+
+@media screen and (max-width: 991px) {
+    .nav li {
+        float: left;
+        width: 20%;
+    }
+}
+
+/* 当我们进入 超小屏幕的时候 我们 nav 文字会变成14px  */
+
+@media screen and (max-width: 767px) {
+    .nav li a {
+        font-size: 14px;
+    }
+}
+
 .news li {
     float: left;
     width: 25%;
