@@ -99,6 +99,7 @@ header {
 @media screen and (max-width: 767px) {
     .nav li a {
         font-size: 14px;
+        padding-left: 3px;
     }
     /* 当我们处于超小屏幕 news 第一个li 宽度为 100%  剩下的小li  各 50% */
     .news li:nth-child(1) {
@@ -106,6 +107,9 @@ header {
     }
     .news li {
         width: 50%!important;
+    }
+    .publish h3 {
+        font-size: 14px;
     }
 }
 
